@@ -96,6 +96,7 @@ header,
     color: #FFF;
     background-color: transparent;
     border-color: #65DAF9;
+    cursor: pointer;
 }
 
 .carousel-indicators .active {
@@ -124,9 +125,38 @@ header,
     left: 42.5%;
 }
 
-.about-title{
+.about-title {
     font-size: 17px;
     color: #444;
     text-transform: uppercase;
     font-weight: bold;
+}
+
+/*Serviços */
+
+.service-box {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.service-box i,
+.service-box h4 {
+    transition: .5s;
+}
+
+.service-box i {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+.service-box h4, .service-box p {
+    font-size: 20px;
+    margin-bottom: 18px;
+}
+
+.service-box:hover > i,
+.service-box:hover > h4 {
+    color: #65DAF9;
+    cursor: pointer;
 }
