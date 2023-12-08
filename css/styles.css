@@ -47,7 +47,9 @@ header,
     color: #FFF;
 }
 
-.navbar-expand-lg, .navbar, .nav-link {
+.navbar-expand-lg,
+.navbar,
+.nav-link {
     padding: 1rem .8rem;
 }
 
@@ -150,29 +152,30 @@ header,
     color: #444;
 }
 
-.service-box h4, .service-box p {
+.service-box h4,
+.service-box p {
     font-size: 20px;
     margin-bottom: 18px;
 }
 
-.service-box:hover > i,
-.service-box:hover > h4 {
+.service-box:hover>i,
+.service-box:hover>h4 {
     color: #65DAF9;
     cursor: pointer;
 }
 
 /* Dados */
 
-.circle-box div{
+.circle-box div {
     padding: 0 40px;
 }
 
-.progressbar-text{
+.progressbar-text {
     font-weight: bold;
     font-size: 32px;
 }
 
-#data-area p{
+#data-area p {
     color: #fff;
     text-align: center;
     font-size: 26px;
@@ -181,6 +184,84 @@ header,
 
 /* Time */
 
-.card-body{
+.card-body {
     text-align: center;
+}
+
+/* Newsletter */
+
+#news-area {
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+#news-area p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+#email-input {
+    border-radius: 0;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: 1px solid #65DAF9;
+    display: inline;
+    box-sizing: border-box;
+    width: 40%;
+    height: 40px;
+}
+
+#news-btn {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 1px solid #65DAF9;
+    background-color: #65DAF9;
+    text-transform: uppercase;
+    color: #FFF;
+    height: 40px;
+    padding: 0 30px;
+    margin-left: -130px;
+    position: absolute;
+    transition: .5s;
+}
+
+#news-btn:hover {
+    background-color: #FFF;
+    color: #65DAF9;
+}
+
+#call-area {
+    background-color: #65DAF9;
+    text-transform: uppercase;
+}
+
+#call-area .container {
+    padding: 40px 100px;
+}
+
+#call-area .row {
+    display: block;
+    text-align: center;
+}
+
+#call-area p {
+    color: #FFF;
+    font-weight: bold;
+    font-size: 18px;
+    width: auto;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+    display: inline;
+    height: 60px;
+    line-height: 60px;
+}
+
+#call-area #call-btn {
+    background-color: #FFF;
+    color: #65DAF9;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin-left: 30px;
+    width: auto;
 }
