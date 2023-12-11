@@ -120,11 +120,11 @@ header,
 }
 
 .main-title::after {
-    content: "";
+    content: " ";
     border-top: 2px solid #333;
     width: 15%;
     position: absolute;
-    top: 60%;
+    top: 60px;
     left: 42.5%;
 }
 
@@ -343,4 +343,66 @@ header,
 #copy-area .container a:hover {
     text-decoration: none;
     color: #3ec1d5;
+}
+
+/* Responsividade */
+@media(max-width:768px) {
+
+    .container {
+        padding: 20px 0;
+    }
+
+    #mainSlider .carousel-inner,
+    #mainSlider .carousel-item {
+        height: auto;
+    }
+
+    #mainSlider .carousel-caption h2 {
+        font-size: 28px;
+    }
+
+    #mainSlider .carousel-caption p {
+        font-size: 18px;
+        margin-bottom: 40px;
+    }
+
+    #mainSlider .carousel-caption {
+        left: 10%;
+        right: 10%;
+    }
+
+    #about-area img{
+        margin-top: 120px;
+    }
+
+    .card-title{
+        font-size: 14px;
+    }
+
+    .card-text{
+        font-size: 12px;
+    }
+
+    #news-area p{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #email-input{
+        width: 70%;
+    }
+
+    #call-area{
+        margin-top: 30px;
+    }
+
+    #call-area .container{
+        padding: 30px;
+    }
+
+    #call-area p, #call-area #call-btn{
+        font-size: 16px;
+    }
+
 }
