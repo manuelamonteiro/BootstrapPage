@@ -2,6 +2,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
 }
 
 .row {
@@ -23,6 +24,7 @@ li {
 header,
 .navbar {
     background-color: #353D41;
+    width: auto;
 }
 
 #nav-container {
